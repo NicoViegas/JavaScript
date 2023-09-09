@@ -15,20 +15,20 @@ function verificar(){
         if(fSex[0].checked){
             gender = 'Homem';
             if(idade>=0 && idade <=18){
-                img.setAttribute("src","assets/boy.jpg");
+                img.setAttribute("src","./assets/boy.jpg");
             }else if(idade <=60){
-                img.setAttribute("src","assets/man.jpg");
+                img.setAttribute("src","./assets/man.jpg");
             }else{
-                img.setAttribute("src","assets/old-man.jpg");
+                img.setAttribute("src","./assets/old-man.jpg");
             }
         }else{
             gender = 'Mulher';
             if(idade>=0 && idade <=18){
-                img.setAttribute("src","assets/girl.jpg");
+                img.setAttribute("src","./assets/girl.jpg");
             }else if(idade <=60){
-                img.setAttribute("src","assets/woman.jpg");
+                img.setAttribute("src","./assets/woman.jpg");
             }else{
-                img.setAttribute("src","assets/old-woman.jpg");
+                img.setAttribute("src","./assets/old-woman.jpg");
             }
         }
 
