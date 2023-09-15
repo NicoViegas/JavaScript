@@ -35,7 +35,7 @@ function verificar(){
         }
 
         res.style.textAlign = "center";
-        res.innerHTML = `Detectamos ${gender} com ${idade} anos`;
+        res.innerHTML = `Detectamos ${gender} com ${idade} anos<br>`;
         res.appendChild(img);
     }
 }
